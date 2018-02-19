@@ -1,0 +1,261 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Aradhika Nigam
+Updated: 14th February, 2018.
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features1 {
+    text-align: center;
+}
+
+#features1 img {
+    margin: 0 0 20px;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+
+#features2 {
+    text-align: center;
+}
+
+#features2 img {
+    margin: 0 0 20px;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+
+#features3 {
+    text-align: center;
+}
+
+#features3 img {
+    margin: 0 0 20px;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+
+.panel{
+
+    border: 0px solid;
+    padding: 15px;
+    box-shadow: 10px 15px #e5e5e5;
+
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+    margin-top: 0;
+}
+
+.well .page-header h1 {
+    margin-top: 0;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+#home {
+    margin-left: -20px
+}
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+.parallax {
+    background-image: url("../../images/p1.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+
+    .parallax {
+        background-image: url("../../images/p1.jpg");
+        min-height: 800px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home {
+        margin-left: 5px
+    }
+    #search {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .parallax {
+        background-image: url("../../images/p1.jpg");
+        min-height: 800px;
+        max-width: 200px background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home {
+        margin-left: 3px
+    }
+    #search {
+        margin-left: 10px;
+    }
+}
+
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {
+
+    .parallax {
+        background-image: url("../../images/p1.jpg");
+        max-width: 800px;
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #home {
+        margin-right: 15px;
+    }
+    #services {
+        margin-left: 5px;
+    }
+
+    #about {
+        margin-left: 3px;
+    }
+    #search {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .parallax {
+        background-image: url("../../images/p1.jpg");
+        min-height: 800px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #home {
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    #services {
+        margin-left: 20px;
+    }
+
+    #about {
+        margin-left: 40px;
+    }
+    #search {
+        margin-left: 50px;
+    }
+}
+
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+
+    .parallax {
+        background-image: url("../../images/p1.jpg");
+        min-height: 800px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
